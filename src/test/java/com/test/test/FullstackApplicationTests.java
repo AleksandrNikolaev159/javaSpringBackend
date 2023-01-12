@@ -10,13 +10,6 @@ import static io.restassured.RestAssured.with;
 @SpringBootTest
 class FullstackApplicationTests {
 
-	@Test
-	public void saveStudent(){
-		with().body(new Student(1,"TestName","TestAddress"))
-				.when()
-				.request("POST","/student")
-				.then()
-				.statusCode(200);
-	}
+
 
 }

@@ -13,8 +13,7 @@ public class Student {
     private int id;
     private String name;
     private String address;
-
-    public Student(int i, String testName, String testAddress) {
+    public Student() {
     }
 
     public int getId() {
