@@ -31,6 +31,19 @@ public class StudentController {
 
     }
 
+    @GetMapping("/test")
+    public void test(){
+
+        studentService.getAllStudents();
+        /*
+        - создать студента (задать его параметры)
+        - отправить HttpType запрос указав путь PATH
+        -
+         */
+
+
+    }
+
 
 
 
